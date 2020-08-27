@@ -1,0 +1,38 @@
+.cart-box{
+    height: 400px;
+    width:400px;
+    margin-top:30px;
+    background-image: linear-gradient(180deg,  cyan,deeppink);
+    border-radius:10px;
+    text-align: center;
+    border: 2px solid lightgray;
+    box-shadow: 10px 10px 15px solid gray;
+    
+}
+.cart-length{
+    color:tomato;
+    text-shadow: 1px 1px 3px rgb(255, 0, 0);
+    cursor: pointer;
+}
+.cart-price{
+    color:whitesmoke;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 22;
+    text-shadow: 1px 1px 3px rgb(255, 0, 0);
+    cursor: pointer;
+}
+.order-summary-text{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 24;
+    color:goldenrod;
+    text-shadow: 1px 1px 3px rgb(255, 0, 0);
+    font-weight: 900;
+}
+.order-summary-text:hover{
+    color:tomato;
+    font-size: 26;
+    text-shadow: 1px 1px 3px rgb(255, 0, 0);
+    cursor: pointer;
+}
